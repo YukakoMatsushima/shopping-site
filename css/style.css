@@ -350,7 +350,8 @@ html {
 .btn .backbtn {
   text-align: center;
   color: #FFFFFF;
-  font-size: 80%;
+  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: bold;
   background-color: #887f69;
   border-width: 0px;
@@ -361,7 +362,8 @@ html {
 .btn .nextbtn {
   text-align: center;
   color: #FFFFFF;
-  font-size: 80%;
+  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: bold;
   background-color: #887f69;
   border-width: 0px;
@@ -371,11 +373,14 @@ html {
   margin-bottom: 0; }
 
 @media (max-width: 550px) {
-  .backbtn {
-    width: 40%; }
-
-  .nextbtn {
-    width: 40%; } }
+  .btn .backbtn {
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 30px; }
+  .btn .nextbtn {
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 30px; } }
 .recent-items .recenttitle {
   margin-top: 30px;
   margin-bottom: 20px;

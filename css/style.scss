@@ -460,7 +460,7 @@ display: block;
  .backbtn{
   text-align: center;
     color: #FFFFFF;
-    font-size: 80%;
+    @include fontsize(14);
     font-weight: bold;
     background-color: #887f69;
     border-width: 0px;
@@ -472,7 +472,7 @@ display: block;
  .nextbtn{
   text-align: center;
     color: #FFFFFF;
-    font-size: 80%;
+    @include fontsize(14);
     font-weight: bold;
     background-color: #887f69;
     border-width: 0px;
@@ -483,11 +483,17 @@ display: block;
  }
 }
 @media (max-width:550px) { 
+ .btn{
 .backbtn{
      width:40%;
+     margin-top: 20px;
+    margin-bottom: 30px;
 }
 .nextbtn{
      width:40%;
+     margin-top: 20px;
+     margin-bottom: 30px;
+}
 }
 }
 
